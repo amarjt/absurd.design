@@ -1,0 +1,265 @@
+body {
+  font: 1rem/1.65 'Merriweather', sans-serif;
+}
+
+body h1 {
+  font-size: 58px;
+}
+
+body .btn {
+  cursor: pointer;
+  -webkit-box-shadow: 1px 2px 3px 1px #dddddd;
+          box-shadow: 1px 2px 3px 1px #dddddd;
+  padding: .75rem 1.25rem;
+}
+
+body .btn:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+body a {
+  color: inherit;
+}
+
+body a:hover {
+  color: unset;
+  text-decoration: unset;
+}
+
+body .btn-dark {
+  background: #000;
+}
+
+body .navbar-nav {
+  font: .75rem/1.25 'Lato', sans-serif;
+  letter-spacing: .125em;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+}
+
+body .sectPara {
+  font-size: 22px;
+}
+
+body section {
+  margin: 3rem 0;
+  position: relative;
+}
+
+body #mycarousel .carousel-control-next {
+  width: 100%;
+}
+
+body #mycarousel .carousel-indicators {
+  bottom: -75px;
+}
+
+body #mycarousel .carousel-indicators li {
+  width: .5rem;
+  height: .5rem;
+  border-radius: 50%;
+  margin: 0 5px;
+  background-color: #202020;
+}
+
+body #mycarousel .carousel-indicators .active {
+  opacity: 1;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+body .card {
+  width: 350px;
+  padding: 1rem auto;
+}
+
+body .card a span {
+  background: #202020;
+  opacity: 0.3;
+  font-size: 12px;
+}
+
+body .card:last-child {
+  background: #F5FBFE;
+}
+
+body .card:last-child .member-disc {
+  display: none;
+  background: #fff;
+  position: absolute;
+  z-index: 100;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 300px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+body .card:last-child h5 span {
+  background: #2020203b;
+  font-size: 12px;
+  padding: 3px 8px;
+  cursor: pointer;
+}
+
+body .card .price {
+  font-size: 6.75rem;
+}
+
+body .card .price::before {
+  content: "$";
+  font-size: 2rem;
+  top: -5px;
+  position: relative;
+  vertical-align: super;
+  opacity: .5;
+  margin-right: 5px;
+}
+
+body .card .price-caption {
+  font-size: 14px;
+}
+
+body .feature .col-md-4 div:hover {
+  -webkit-box-shadow: 1px 2px 20px 15px #20202017;
+          box-shadow: 1px 2px 20px 15px #20202017;
+  border: none !important;
+}
+
+body .feature i {
+  font-size: 1.25rem;
+  margin: 1rem auto;
+}
+
+body .brands h1 {
+  font-size: 2.5rem;
+}
+
+body .brands .brand-img {
+  width: 75%;
+  margin: auto;
+}
+
+body .brands .brand-img div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 3rem;
+  margin-bottom: 1rem;
+}
+
+body .brands img {
+  width: 100px;
+}
+
+body .brands .btn {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body .brands .btn span {
+  font-size: 9px;
+}
+
+body #email-form {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #email-form .form-control:focus {
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+}
+
+body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body footer a {
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  margin: 0 .25rem;
+  text-align: center;
+  line-height: 1.75rem;
+}
+
+body footer a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  margin: 0 .5rem;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+body footer a i {
+  color: #fff;
+}
+
+body .top-btn {
+  padding: .75rem 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+}
+
+body #my-scrollNav .scroll-indicators {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 50%;
+  -webkit-transform: translate(115%, -50%);
+          transform: translate(115%, -50%);
+  right: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+}
+
+body #my-scrollNav .scroll-indicators a {
+  width: .20rem;
+  height: 1rem;
+  background-color: #202020;
+  border-radius: unset;
+  opacity: .3;
+  border: unset;
+  margin-bottom: .25rem;
+}
+
+body #my-scrollNav .scroll-indicators .active {
+  height: 3rem;
+  opacity: 1;
+}
+/*# sourceMappingURL=style.css.map */
