@@ -3,7 +3,7 @@ body {
 }
 
 body h1 {
-  font-size: 58px;
+  font-size: 54px;
 }
 
 body .btn {
@@ -233,18 +233,14 @@ body #my-scrollNav .scroll-indicators {
       -ms-flex-direction: column;
           flex-direction: column;
   top: 50%;
-  -webkit-transform: translate(115%, -50%);
-          transform: translate(115%, -50%);
-  right: 0;
-  left: 0;
+  -webkit-transform: translate(-93%, -50%);
+          transform: translate(-93%, -50%);
+  right: 7%;
   z-index: 999;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-left: 0;
-  margin-right: 15%;
-  margin-left: 15%;
   list-style: none;
 }
 
@@ -261,5 +257,14 @@ body #my-scrollNav .scroll-indicators a {
 body #my-scrollNav .scroll-indicators .active {
   height: 3rem;
   opacity: 1;
+}
+
+@media (max-width: 426px) {
+  body h1 {
+    font-size: 40px;
+  }
+  body .sectPara {
+    font-size: 18px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -2,7 +2,7 @@ body {
     font: 1rem/1.65 'Merriweather', sans-serif;
 
     h1 {
-        font-size: 58px;
+        font-size: 54px;
     }
 
     .btn {
@@ -220,15 +220,11 @@ body {
             display: flex;
             flex-direction: column;
             top: 50%;
-            transform: translate(115%, -50%);
-            right: 0;
-            left: 0;
+            transform: translate(-93%, -50%);
+            right: 7%;
             z-index: 999;
             display: flex;
             justify-content: center;
-            padding-left: 0;
-            margin-right: 15%;
-            margin-left: 15%;
             list-style: none;
 
             a {
@@ -246,5 +242,19 @@ body {
                 opacity: 1;
             }
         }
+    }
+
+    @media (max-width:426px){
+        h1{
+            font-size: 40px;
+        }
+
+        .sectPara {
+            font-size: 18px;
+        }
+
+        // .card{
+        //     // width: 100%;
+        // }
     }
 }
