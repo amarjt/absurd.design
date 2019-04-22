@@ -39,6 +39,10 @@ body {
         font-size: 22px;
     }
 
+    article{
+        height: 100vh;
+    }
+
     section {
         margin: 3rem 0;
         position: relative;
@@ -249,12 +253,13 @@ body {
             font-size: 40px;
         }
 
+        article{
+            height: unset;
+        }
+
         .sectPara {
             font-size: 18px;
         }
 
-        // .card{
-        //     // width: 100%;
-        // }
     }
 }

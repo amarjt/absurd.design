@@ -42,6 +42,10 @@ body .sectPara {
   font-size: 22px;
 }
 
+body article {
+  height: 100vh;
+}
+
 body section {
   margin: 3rem 0;
   position: relative;
@@ -262,6 +266,9 @@ body #my-scrollNav .scroll-indicators .active {
 @media (max-width: 426px) {
   body h1 {
     font-size: 40px;
+  }
+  body article {
+    height: unset;
   }
   body .sectPara {
     font-size: 18px;
